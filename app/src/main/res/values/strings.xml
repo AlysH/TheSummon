@@ -12,14 +12,14 @@
     <string name="education_institution">Select your university</string>
     <string name="education_course">Tell us what you studied</string>
 
-        <string-array name="education_level_array">
-            <item>High School Diploma</item>
-            <item>Foundation</item>
-            <item>Trade Certificate</item>
-            <item>Undergraduate Degree</item>
-            <item>Masters Degree</item>
-            <item>PhD</item>
-        </string-array>
+    <string-array name="education_level_array">
+        <item>High School Diploma</item>
+        <item>Foundation</item>
+        <item>Trade Certificate</item>
+        <item>Undergraduate Degree</item>
+        <item>Masters Degree</item>
+        <item>PhD</item>
+    </string-array>
 
     <string-array name="education_institution_array">
         <item>UPC</item>

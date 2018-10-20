@@ -26,7 +26,8 @@
         <Spinner
             android:id="@+id/education_level_array"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:entries="@array/education_level_array"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -41,7 +42,8 @@
         <Spinner
             android:id="@+id/education_insitution_array"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:entries="@array/education_institution_array"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -63,7 +65,11 @@
             android:inputType="textPersonName"
             android:maxLines="5"/>
 
-
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
 
     </LinearLayout>
 

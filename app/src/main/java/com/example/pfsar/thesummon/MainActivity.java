@@ -30,14 +30,26 @@ public class MainActivity extends AppCompatActivity {
         mNfcAdapter.enableReaderMode(this, new NfcAdapter.ReaderCallback() {
             @Override
             public void onTagDiscovered(Tag tag) {
-                Toast.makeText(MainActivity.this, "TAG received", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(),Education.class));
+                runOnUiThread(new Runnable() {
+                   @Override
+                   public void run() {
+                       Toast.makeText(MainActivity.this, "TAG received", Toast.LENGTH_SHORT).show();
+                   }
+               });
             }
         },FLAG_READER_NFC_A|FLAG_READER_NFC_B|FLAG_READER_NFC_F,
                 new Bundle());
         mTextView.setText(R.string.explanation);
 
         if (mNfcAdapter == null) {
-            Toast.makeText(this,"This device does not support NFC", Toast.LENGTH_LONG).show();
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    Toast.makeText(MainActivity.this,"This device does not support NFC", Toast.LENGTH_LONG).show();
+                }
+            });
+
             return;
         }
 
@@ -47,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        handleIntent(getIntent());
+      //  handleIntent(getIntent());
     }
 
 
@@ -70,7 +82,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void handleIntent(Intent intent) {
-        if (intent != null)
+        if (intent != null) {
             mTextView.setText("NFCTag recveived");
+            startActivity(new Intent(getApplicationContext(),Education.class));
+        }
     }
 }
