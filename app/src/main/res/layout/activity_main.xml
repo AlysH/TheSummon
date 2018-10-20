@@ -8,12 +8,26 @@
     tools:layout_editor_absoluteY="81dp">
 
     <TextView
+<<<<<<< HEAD
+        android:id="@+id/Text_View"
+        android:layout_width="0dp"
+=======
         android:id="@+id/textView"
         android:layout_width="wrap_content"
+>>>>>>> 7e9cee34ba53e974de37d667d42eaf8f1915b79d
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+<<<<<<< HEAD
+        android:layout_marginBottom="8dp"
+        android:text="@string/explanation"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+=======
         android:text="@string/approach_the_pentagram"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,4 +50,5 @@
         app:layout_constraintVertical_bias="0.42000002"
         tools:contentDescription="face"
         tools:srcCompat="@tools:sample/avatars" />
+>>>>>>> 7e9cee34ba53e974de37d667d42eaf8f1915b79d
 </android.support.constraint.ConstraintLayout>

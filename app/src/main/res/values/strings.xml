@@ -1,4 +1,8 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">TheSummon</string>
+    <string name="explanation">Hellooo there mate!</string>
+=======
     <string name="app_name">The Summoning</string>
     <string name="textview">TextView</string>
     <string name="approach_the_pentagram">Approach the pentagram!</string>
@@ -6,4 +10,5 @@
     <string name="work_title">Your current job title</string>
     <string name="work_description">Describe your role</string>
     <string name="skill">Skills</string>
+>>>>>>> 7e9cee34ba53e974de37d667d42eaf8f1915b79d
 </resources>
