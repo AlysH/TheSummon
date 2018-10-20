@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pfsar.thesummon">
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.NFC"/>
     <uses-feature
         android:name="android.hardware.nfc"
         android:required="true"/>
+=======
+
+    <uses-permission android:name="android.permission.NFC" />
+
+>>>>>>> 7e9cee34ba53e974de37d667d42eaf8f1915b79d
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -41,6 +47,11 @@
                 android:name="android.nfc.action.android.nfc.action.ACTION_TAG_DISCOVERED"
                 android:resource="@xml/nfc_tech_filter"/>
         </activity>
+        <activity
+            android:name=".WorkExperience"
+            android:label="@string/title_activity_work_experience"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Skills"></activity>
     </application>
 
 </manifest>
