@@ -8,26 +8,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Enter new Skill" />
+            style="@style/HeaderStyle"
+            android:text="@string/list_skills" />
 
         <EditText
             android:id="@+id/new_skill_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:imeOptions="actionDone"
-            android:hint="Enter skill here" />
+            android:imeOptions="actionDone" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/HeaderStyle"
             android:text="My Skills" />
 
         <android.support.v7.widget.RecyclerView

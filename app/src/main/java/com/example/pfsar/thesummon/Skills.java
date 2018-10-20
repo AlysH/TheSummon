@@ -29,9 +29,8 @@ public class Skills extends AppCompatActivity {
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         skillsRV.setLayoutManager(layoutManager);
         skills = new ArrayList<>();
-        skills.add("fly");
-        skills.add("destroy");
-        skills.add("java");
+        skills.add("Broom riding");
+        skills.add("Spell casting");
         skillsAdapter = new SkillsAdapter(skills);
         skillsRV.setAdapter(skillsAdapter);
         skillsAdapter.notifyDataSetChanged();
