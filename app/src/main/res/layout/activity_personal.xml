@@ -6,4 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".Personal">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your E-mail address"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your address"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="265dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="299dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desired start date"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="364dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_summoning"/>
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

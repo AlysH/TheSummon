@@ -1,16 +1,22 @@
 <resources>
     <string name="app_name">The Summoning</string>
+
     <string name="explanation">Welcome to the covernant</string>
-    <string name="textview">TextView</string>
+
     <string name="approach_the_pentagram">Approach the pentagram!</string>
+    <string name="next_point">Tap the next corner of the pentagram!</string>
+
     <string name="title_activity_work_experience">WorkExperience</string>
     <string name="work_title">Your current job title</string>
     <string name="work_description">Describe your role</string>
+
     <string name="skill">Skills</string>
     <string name="list_skills">List your skills</string>
+
     <string name="education_level">Select your highest level of education</string>
     <string name="education_institution">Select your university</string>
     <string name="education_course">Tell us what you studied</string>
+    <string name="add_to_summoning">Add to Summoning!</string>
 
     <string-array name="education_level_array">
         <item>High School Diploma</item>

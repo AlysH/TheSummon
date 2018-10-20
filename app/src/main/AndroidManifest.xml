@@ -53,7 +53,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Skills" />
         <activity android:name=".Education" />
-        <activity android:name=".Personal"></activity>
+        <activity android:name=".Personal" />
+        <activity android:name=".Transition"></activity>
     </application>
 
 </manifest>

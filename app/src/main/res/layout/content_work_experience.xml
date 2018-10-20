@@ -13,11 +13,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView2"
+            style="@style/HeaderStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -30,11 +33,12 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text=""
-            android:maxLines="1"/>
+            android:maxLines="1"
+            android:text="" />
 
         <TextView
             android:id="@+id/textView3"
+            style="@style/HeaderStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -49,7 +53,13 @@
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:maxLines="5"/>
+            android:maxLines="5" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_summoning"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
