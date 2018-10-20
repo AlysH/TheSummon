@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">The Summoning</string>
     <string name="textview">TextView</string>
-    <string name="approach_the_pentagram">Approach the pentagram</string>
+    <string name="approach_the_pentagram">Approach the pentagram!</string>
     <string name="title_activity_work_experience">WorkExperience</string>
     <string name="work_experience">Work Experience</string>
 </resources>
