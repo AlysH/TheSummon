@@ -3,21 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Skills">
+    tools:context=".Skills"
+    tools:layout_editor_absoluteY="81dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:layout_margin="10dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/list_skills" />
 
         <EditText
@@ -27,9 +28,9 @@
             android:imeOptions="actionDone" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="My Skills" />
 
         <android.support.v7.widget.RecyclerView
@@ -41,7 +42,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add_to_summoning"/>
+            android:text="@string/add_to_summoning" />
 
     </LinearLayout>
 
