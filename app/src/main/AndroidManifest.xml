@@ -52,7 +52,8 @@
             android:label="@string/title_activity_work_experience"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Skills" />
-        <activity android:name=".Education"></activity>
+        <activity android:name=".Education" />
+        <activity android:name=".Personal"></activity>
     </application>
 
 </manifest>

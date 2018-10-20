@@ -8,4 +8,24 @@
     <string name="work_description">Describe your role</string>
     <string name="skill">Skills</string>
     <string name="list_skills">List your skills</string>
+    <string name="education_level">Select your highest level of education</string>
+    <string name="education_institution">Select your university</string>
+    <string name="education_course">Tell us what you studied</string>
+
+        <string-array name="education_level_array">
+            <item>High School Diploma</item>
+            <item>Foundation</item>
+            <item>Trade Certificate</item>
+            <item>Undergraduate Degree</item>
+            <item>Masters Degree</item>
+            <item>PhD</item>
+        </string-array>
+
+    <string-array name="education_institution_array">
+        <item>UPC</item>
+        <item>UB</item>
+        <item>UoM</item>
+        <item>Edinbrugh</item>
+    </string-array>
+
 </resources>
