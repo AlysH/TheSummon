@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pfsar.thesummon">
 
-    <uses-permission
-        android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.NFC" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +21,8 @@
         <activity
             android:name=".WorkExperience"
             android:label="@string/title_activity_work_experience"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Skills"></activity>
     </application>
 
 </manifest>
