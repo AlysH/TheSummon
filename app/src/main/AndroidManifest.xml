@@ -51,7 +51,8 @@
         <activity android:name=".Education" />
         <activity android:name=".Personal" />
         <activity android:name=".Transition" />
-        <activity android:name=".WorkExperience"></activity>
+        <activity android:name=".WorkExperience" />
+        <activity android:name=".Job"></activity>
     </application>
 
 </manifest>

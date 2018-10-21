@@ -40,4 +40,7 @@
 
     <string name="personal_page_title">Conjurers Details</string>
 
+    <string name="chosen">The pentagram has chosen!</string>
+    <string name="chosen_job">Seal your fate, apply to the job below</string>
+
 </resources>
