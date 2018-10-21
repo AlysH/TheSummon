@@ -5,16 +5,18 @@
 
     <string name="approach_the_pentagram">Approach the pentagram!</string>
     <string name="commence">To commence counjuring tap the northern point</string>
-    <string name="next_point">Conjur clockwise - Tap the next corner of the pentagram!</string>
+    <string name="next_point">Conjur clockwise \n Tap the next corner of the pentagram!</string>
 
     <string name="work_experience_page_title">Work Experience</string>
     <string name="title_activity_work_experience">WorkExperience</string>
     <string name="work_title">Your current job title</string>
     <string name="work_description">Describe your role</string>
 
+    <string name="skills_page_title">Your Skills</string>
     <string name="skill">Skills</string>
     <string name="list_skills">List your skills</string>
 
+    <string name="education_page_title">Your Education</string>
     <string name="education_level">Select your highest level of education</string>
     <string name="education_institution">Select your university</string>
     <string name="education_course">Tell us what you studied</string>
@@ -35,5 +37,7 @@
         <item>UoM</item>
         <item>Edinbrugh</item>
     </string-array>
+
+    <string name="personal_page_title">Conjurers Details</string>
 
 </resources>

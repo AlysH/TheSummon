@@ -17,13 +17,25 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/TitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_page_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
             android:id="@+id/textView4"
             style="@style/HeaderStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Your name"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="76dp" />
+            tools:layout_editor_absoluteY="76dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <EditText
             android:id="@+id/editText4"
@@ -33,7 +45,10 @@
             android:inputType="textPersonName"
             android:text=""
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="103dp" />
+            tools:layout_editor_absoluteY="103dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -42,7 +57,10 @@
             android:layout_height="wrap_content"
             android:text="Your E-mail address"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="176dp" />
+            tools:layout_editor_absoluteY="176dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <EditText
             android:id="@+id/editText5"
@@ -51,7 +69,10 @@
             android:ems="10"
             android:inputType="textEmailAddress"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="203dp" />
+            tools:layout_editor_absoluteY="203dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -60,7 +81,10 @@
             android:layout_height="wrap_content"
             android:text="Your address"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="265dp" />
+            tools:layout_editor_absoluteY="265dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <EditText
             android:id="@+id/editText6"
@@ -69,7 +93,10 @@
             android:ems="10"
             android:inputType="textPostalAddress"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="299dp" />
+            tools:layout_editor_absoluteY="299dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/textView"
@@ -78,7 +105,10 @@
             android:layout_height="wrap_content"
             android:text="Desired start date"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="364dp" />
+            tools:layout_editor_absoluteY="364dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <EditText
             android:id="@+id/editText3"
@@ -87,13 +117,20 @@
             android:ems="10"
             android:inputType="date"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="400dp" />
+            tools:layout_editor_absoluteY="400dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add_to_summoning"/>
+            android:text="@string/add_to_summoning"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/colorAccent"/>
 
     </LinearLayout>
 

@@ -18,17 +18,32 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/TitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/education_page_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/education_level"
-            style="@style/HeaderStyle"/>
+            style="@style/HeaderStyle"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <Spinner
             android:id="@+id/education_level_array"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/education_level_array"/>
+            android:entries="@array/education_level_array"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -38,13 +53,17 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
             android:text="@string/education_institution"
-            style="@style/HeaderStyle"/>
+            style="@style/HeaderStyle"
+            />
 
         <Spinner
             android:id="@+id/education_insitution_array"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/education_institution_array"/>
+            android:entries="@array/education_institution_array"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -55,7 +74,8 @@
             android:layout_marginEnd="8dp"
             android:text="@string/education_course"
             style="@style/HeaderStyle"
-            tools:ignore="DuplicateIds" />
+            tools:ignore="DuplicateIds"
+            />
 
         <EditText
             android:id="@+id/editText2"
@@ -64,13 +84,19 @@
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:maxLines="5"/>
+            android:maxLines="5"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add_to_summoning"/>
+            android:text="@string/add_to_summoning"
+            android:textColor="@color/colorAccent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
 
     </LinearLayout>
 
