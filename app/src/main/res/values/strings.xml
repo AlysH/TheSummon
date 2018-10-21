@@ -4,9 +4,10 @@
     <string name="explanation">Welcome to the covernant</string>
 
     <string name="approach_the_pentagram">Approach the pentagram!</string>
-    <string name="commence">To commence counjouring tap the northern point</string>
-    <string name="next_point">Conjour clockwise - Tap the next corner of the pentagram!</string>
+    <string name="commence">To commence counjuring tap the northern point</string>
+    <string name="next_point">Conjur clockwise - Tap the next corner of the pentagram!</string>
 
+    <string name="work_experience_page_title">Work Experience</string>
     <string name="title_activity_work_experience">WorkExperience</string>
     <string name="work_title">Your current job title</string>
     <string name="work_description">Describe your role</string>

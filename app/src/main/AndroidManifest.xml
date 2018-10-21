@@ -47,14 +47,11 @@
                 android:name="android.nfc.action.android.nfc.action.ACTION_TAG_DISCOVERED"
                 android:resource="@xml/nfc_tech_filter" />
         </activity>
-        <activity
-            android:name=".WorkExperience"
-            android:label="@string/title_activity_work_experience"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Skills" />
         <activity android:name=".Education" />
         <activity android:name=".Personal" />
-        <activity android:name=".Transition"></activity>
+        <activity android:name=".Transition" />
+        <activity android:name=".WorkExperience"></activity>
     </application>
 
 </manifest>
